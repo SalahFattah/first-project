@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: roboto;
+}
+.hero{
+    background-color: #1F2937;
+    padding: 0 10%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding-top: 2%;
+}
+.hero h2{
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+.hero h1{
+    font-size: 48px;
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+    color: #F9FAF8;
+}
+.hero p{
+    color: #F9FAF8;
+}
+button{
+    background-color: #2882f6;
+    color:white;
+    padding: 5px 20px;
+    border: 1px solid #2882f6;
+    border-radius: 3px;
+}
+nav{
+    display: flex;
+    gap: 10px;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+}
+.media{
+    display: flex;
+    align-items: flex-start;
+    /* margin: 5% 0; */
+    padding: 10% 0;
+}
+.media .media-body{
+    flex:1;
+}
+
+.media img{
+    width: 500px;
+    /* height: 250px; */
+}
+.title{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: black;
+}
+.info{
+    margin: 3% 0 5%;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    
+    gap: 40px;
+}
+.card{
+    max-width: 150px;
+    
+}
+.cards img{
+    width: 100%;
+    border-radius: 5%;
+    height: 150px;
+}
+h6{
+    margin: 4% 0;
+    padding: 0;
+    text-align: center;
+}
+
+.testo{
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+    padding: 7%;
+    
+}
+.qt{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+    margin-bottom: 0;
+}
+.quote{
+    width: 700px;
+}
+.person{
+    text-align: end;
+    font-weight: 700;
+    padding: 0;
+    margin-top: 0;
+}
+
+.call{
+    padding: 5% 10%;
+}
+.inside-call{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2882f6;
+    padding: 3% 8%;
+    border-radius: 5px;
+}
+.inside-call h3, .inside-call p{
+    margin: 0;
+    padding: 0;
+    color: #e5e7eb;
+}
+.call button{
+    border-color: #e5e7eb;
+}
+footer{
+    background-color: #1F2937;
+    padding: 2%;
+    color: #e5e7eb;
+    text-align: center;
+}
